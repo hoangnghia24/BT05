@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <!-- map all pages to the default decorator -->
+    <mapping name="/*" decorator="/WEB-INF/decorators/decorator.jsp"/>
+    <mapping name="/admin/*" decorator="/WEB-INF/decorators/decorator.jsp"/>
+</sitemesh>
